@@ -129,15 +129,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\G-Engine\G-Math.cpp" />
-    <ClCompile Include="G-Engine\G-Body.cpp" />
-    <ClCompile Include="G-Engine\G-World.cpp" />
+    <ClCompile Include="header y source files\G-Body.cpp" />
+    <ClCompile Include="header y source files\G-Math.cpp" />
+    <ClCompile Include="header y source files\G-World.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="G-Engine\G-Body.h" />
-    <ClInclude Include="G-Engine\G-Math.h" />
-    <ClInclude Include="G-Engine\G-World.h" />
+    <ClInclude Include="header y source files\G-Body.h" />
+    <ClInclude Include="header y source files\G-Math.h" />
+    <ClInclude Include="header y source files\G-World.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
